@@ -10,16 +10,16 @@ Original data
 
 Variables
 
-train_data 	: Training dataset
-train_lbl 	: Activity info from training dataset
-train_sub 	: Subject info from training dataset
-test_data 	: Test dataset
-test_lbl 	: Activity info from test dataset
-test_sub 	: Subject info from test dataset
-activ_lbl   : The activityLabels info 
-features  	: The feature information, will contain later only the reduced features(info about mean and std)
+- train_data 	: Training dataset
+- train_lbl 	: Activity info from training dataset
+- train_sub 	: Subject info from training dataset
+- test_data 	: Test dataset
+- test_lbl 	: Activity info from test dataset
+- test_sub 	: Subject info from test dataset
+- activ_lbl   : The activityLabels info 
+- features  	: The feature information, will contain later only the reduced features(info about mean and std)
 
-allData = rbind(train_data, test_data)
-allLbl = rbind(train_lbl, test_lbl)
-allSub = rbind(train_sub, test_sub)
+- allData = rbind(train_data, test_data)
+- allLbl = rbind(train_lbl, test_lbl)
+- allSub = rbind(train_sub, test_sub)
 Later the allData variable contains the refined combination of dataset, activity and subject info. 
